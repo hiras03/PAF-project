@@ -22,6 +22,8 @@ import com.hiras.paf.model.Supplier;
 
 
 
+@RestController
+@RequestMapping("/Supplier")
 public class SupplierController {
 	
 	@Autowired
